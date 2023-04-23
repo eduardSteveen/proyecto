@@ -5,6 +5,6 @@ const app = express()
 const puerto = process.env.PORT || 8090
 
 app.listen(puerto, ()=>{
-    console.log("el servidor se está ejecutando")
+    console.log("el servidor se está ejecutando correctamente")
 })
 
