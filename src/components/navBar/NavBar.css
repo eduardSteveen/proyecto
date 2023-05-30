@@ -1,0 +1,27 @@
+.grid{
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.nav{
+    border-bottom: 2px solid var(--main-color);
+    height: 55px;
+    position: sticky;
+}
+
+.opc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    gap: 59px;
+}
+
+.menu li{
+    transition: 0.3s;
+}
+
+.menu li:hover{
+    transform: translateY(-2px);
+}

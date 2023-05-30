@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.grid{
+    display: grid;
+}
+
+:root{
+    --main-color: #1A69DF;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
