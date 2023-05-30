@@ -23,7 +23,6 @@ button{
     position: relative;
     z-index: 1;
     overflow: hidden;
-    top: 30px;
 }
 
 #NavBtn::after{
