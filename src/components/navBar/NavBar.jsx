@@ -1,12 +1,14 @@
+import React, { useState }from 'react';
 import Boton from '../forms/Boton/Boton';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
 
 const NavBar = ()=>{
+
     return(
         <div className='grid nav'>
                 <div className='opc'>Logo</div>
-                <div className='opc'>
+                <div className='opc' id='menu'>
                     <ul className='menu flex'>
                         <li><Link to='/'>Inicio</Link></li>
                         <li><Link to='/support'>Soporte</Link></li>
