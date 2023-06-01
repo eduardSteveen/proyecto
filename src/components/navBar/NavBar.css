@@ -42,7 +42,7 @@ a{
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 320px){
 
     .grid{
         grid-template-columns: 2fr 3fr;
