@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 55px;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -5,7 +10,6 @@ body{
 body *{
     text-decoration: none;
     outline: none;
-    color: black;
 }
 
 .grid{
@@ -22,4 +26,10 @@ ul{
 
 .flex {
     display: flex;
+}
+
+div.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }

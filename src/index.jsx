@@ -1,7 +1,8 @@
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './app';
-import './style/Global.css'
+import './style/Global.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const container = document.getElementById("root")
 

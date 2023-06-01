@@ -1,16 +1,17 @@
-import { Route, Routes } from "react-router-dom"
-import NavBar from "./components/navBar/NavBar.jsx"
-import Home from "./views/Home/Home.jsx"
-import Support from "./views/Support/Support.jsx"
-import Contact from "./views/contact/Contact.jsx"
-import About from "./views/About/About.jsx"
-
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/navBar/NavBar.jsx";
+import Home from "./views/Home/Home.jsx";
+import Support from "./views/Support/Support.jsx";
+import Contact from "./views/contact/Contact.jsx";
+import About from "./views/About/About.jsx";
 
 const App = ()=>{
 
     return(
         <section>
-            <NavBar></NavBar>
+            <div className="sticky">
+                <NavBar></NavBar>   
+            </div>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/support" element={<Support></Support>}></Route>

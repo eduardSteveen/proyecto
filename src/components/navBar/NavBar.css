@@ -1,11 +1,11 @@
 .grid{
-    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-columns: 2fr 4fr 2fr;
 }
 
 .nav{
     border-bottom: 2px solid var(--main-color);
     height: 55px;
-    position: sticky;
+    background-color: white;
 }
 
 .opc{
@@ -16,17 +16,28 @@
 
 .menu{
     gap: 59px;
+    padding: 0;
 }
 
 .menu li{
     transition: 0.3s;
 }
 
+a{
+    color: black;
+}
+
 .menu li:hover{
+    text-decoration: underline;
     transform: translateY(-2px);
 }
 
-.btn{
-    position: relative;
-    top: 30px;
+
+@media (max-width: 650px){
+    .grid{
+        grid-template-columns: 2fr 3fr 3fr;
+    }
+    .menu{
+        gap: 15px;
+    }
 }

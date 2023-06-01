@@ -1,0 +1,59 @@
+.PrincipalHome{
+    background-image: url('../../images/paginaPrincipal.jpg');
+    height: 37.5rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.slogan, .nosotros{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slogan p{
+    font-size: 5rem;
+}
+
+.text{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+    top: 4.5rem;
+    transition: 0.3s;
+}
+
+.text i{
+    position: relative;
+    top: 0.1rem;
+}
+
+.text:hover{
+    transform: translateY(-2px);  
+}
+
+.text, .PrincipalHome{
+    color: white;
+}
+
+.PrincipalHome, .slogan, .nosotros{
+    display: flex;
+}
+
+@media (max-width: 808px){
+    .PrincipalHome{
+        display: block;
+    }
+    .slogan{
+        width: 100%;
+    }
+
+    .slogan p{
+        width: 350px;
+    }
+    .nosotros{
+        width: 100%;
+    }
+}
