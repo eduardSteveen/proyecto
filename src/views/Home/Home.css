@@ -42,6 +42,14 @@
     display: flex;
 }
 
+#services{
+    padding: 1.5rem 10rem;
+}
+
+#services h1{
+    font-size: 2rem;
+}
+
 @media (max-width: 808px){
     .PrincipalHome{
         display: block;

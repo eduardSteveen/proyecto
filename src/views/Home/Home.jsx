@@ -10,44 +10,8 @@ const Home = ()=>{
                     <a class="text" href='#services'>Conoce nuestros servicios <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
-            <div className="services" id='services'>
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                hola <br />
-                
+            <div id='services'>
+                <h1>Nuestros servicios</h1>
             </div>
         </div>
         
