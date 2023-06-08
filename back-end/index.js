@@ -10,7 +10,7 @@ app.listen(puerto, ()=>{
 })
 
 
-app.use(cors({origin:"http://localhost:5173"}));
+app.use(cors({origin:"https://proyecto-ti-ne.onrender.com/"}));
 app.use(express.json());
 
 app.use("/mail", mailRouter);
