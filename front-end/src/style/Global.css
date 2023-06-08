@@ -1,11 +1,15 @@
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 55px;
+    width: 100%;
+    height: 100%;
 }
 
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 body *{
     text-decoration: none;
@@ -19,6 +23,14 @@ body *{
 
 :root{
     --main-color: #1A69DF;
+}
+#root{
+    width: 100%;
+    height: 100%;
+}
+section{
+    width: 100%;
+    height: 100%;
 }
 
 ul{

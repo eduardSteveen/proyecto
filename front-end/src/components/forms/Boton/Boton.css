@@ -33,7 +33,7 @@ button{
     bottom: 0;
 }
 
-#NavBtn, #NavBtn:hover, #NavBtn::after, #NavBtn:hover::after{
+#NavBtn, #NavBtn:hover, #NavBtn::after, #NavBtn:hover::after, .btn-specialice:hover, .btn-specialice{
     transition: all 0.7s;
 }
 

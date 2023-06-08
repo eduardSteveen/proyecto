@@ -1,0 +1,32 @@
+.ContactContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactForm{
+    width: 40%;
+    border: solid 2px var(--main-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.title{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.gridContact{
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn-container{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}

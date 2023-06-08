@@ -7,7 +7,7 @@ export async function sendEmail (req, res){
         from: "proyectoNiEd@gmail.com",
         to: "proyectoNiEd@gmail.com",
         subject: info.asunto,
-        text: info.text,
+        html: `usuario: ${info.nombre}, correo: ${info.correo}, celular: ${info.celular} ${info.mensaje}`
     }
 
     var transporter = nodemailer.createTransport({
