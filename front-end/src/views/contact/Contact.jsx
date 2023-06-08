@@ -8,9 +8,21 @@ import './Contact.css'
 function Contact(){
 
     async function onSubmit (evento){
-        console.log("hola")
         evento.preventDefault();
-        const res = ContactService(nombre, correo, asunto, celular, mensaje);
+        if(validation()){
+            const res = ContactService(nombre, correo, asunto, celular, mensaje);
+        }else{
+            alert("no has registrado todos los datos");
+        }
+        
+    }
+
+    function validation (){
+        if(nombre!="" && correo!="" && asunto!="" && celular!="" && mensaje!=""){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     const [nombre, SetNombre] = useState("");

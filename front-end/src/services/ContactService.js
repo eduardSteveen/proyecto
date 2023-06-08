@@ -15,7 +15,7 @@ export async function ContactService(nombre, correo, asunto, celular, mensaje){
     })
 
     if(res.ok){
-        alert ("enviado") 
+        alert ("mensaje enviado con exito") 
     }else{
         alert("hay un error")
     }
